@@ -64,8 +64,8 @@ displayEntries();
 
 document.addEventListener("DOMContentLoaded", function() {
     var inputDate = document.getElementById('dob');
-    var minDate = new Date('1967-11-09');
-    var maxDate = new Date('2004-11-09');
+    var minDate = new Date('1967-11-12');
+    var maxDate = new Date('2004-11-12');
   
     inputDate.addEventListener('input', function() {
       var selectedDate = new Date(this.value);
